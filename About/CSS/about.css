@@ -1,0 +1,423 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+main {
+	width: 960px;	
+	margin: 0 auto;
+}
+.main{
+	width: 960px;
+	margin: 0 auto 0 auto;
+	height: 1650px;
+}
+header{
+	width: 960px;
+	height: 100px;
+	float: left;
+}
+.logo{
+	height: 38px;
+	width: 180px;
+	margin:31px 0;
+	float: left;
+}
+.search-engine {
+	width: 200px;
+	height: 38px;
+	color: #fff;
+	margin: 31px 0;
+	float: right;
+	}.search-engine input [type=text]{
+		border: none;
+		}.pole {
+			width: 160px;
+			height: 38px;
+			background: #f2f2f2;
+			border: 1px solid #d9d9d9;
+			color: #d9d9d9;
+			float: left;
+			}.kopche {
+				width: 40px;
+				height: 38px;
+				display:inline-block;
+				float: right;
+				color: white;
+				border: 0;
+				overflow: auto;
+				background: #4dd2ff;
+			}
+			#horizont{
+				height:80px;
+				width: 960px;
+			}
+			#horizont ul li{
+				list-style-type: none;
+				width: 119.76px;
+				float: left;
+				text-align: center;
+				border-top: 1px solid #d9d9d9;
+				border-bottom: 1px solid #d9d9d9;
+				background-color: #f2f2f2;
+				} li:first-child{
+					border-left: 1px solid #d9d9d9;
+					} li:last-child{
+						border-right: 1px solid #d9d9d9;
+					}
+					#horizont li a{
+						text-decoration: none;
+						color: rgb(180, 180, 180);
+						line-height: 50px;
+						display: block; 
+						font-weight: 700;
+						text-transform: uppercase;
+					}
+					#horizont a:hover {
+						background-color: #4dd2ff;
+					}
+					.active {
+						background-color: #4dd2ff;
+					}
+					.clearfix{
+						height: 100px;
+						display: block;
+						float: left;
+						color: rgb(120, 120, 120);
+						line-height: 110px;
+						font-weight: 700;
+						text-transform: uppercase;
+						font-size: 30px;
+					}
+					.mala{
+						float: left;
+						margin: 31px 0;
+					}
+					.golema{
+						float: right;
+						margin: 31px 0 31px 35px;
+					}
+					#vertical{
+						width: 230px;
+						height: 250px;
+						position: absolute;
+						left: 195.8px;
+						top: 254px;
+					}
+					#vertical ul li{
+						list-style-type: none;
+						height: 41.6px;
+						width: 230px;
+						border: 1px solid #d9d9d9;
+						background-color: #f2f2f2;
+						/*list-style-type: square; //ovie ne znam kako da gi stiliziram*/
+					}
+					#vertical li a{
+						display: block;
+						color: rgb(150,150,150);
+						padding-bottom: 5px;
+						text-decoration: none;
+						margin-left: 30px;
+						margin-top: 15px;
+						text-transform: uppercase; 
+					}
+					#vertical a:hover{
+						color: #4dd2ff;
+					}
+					#thought{
+						width: 650px;
+						height:150px;
+						padding: 20px 25px;
+						background:#4dd2ff;
+						color: white;
+						position: absolute;
+						right: 194px;
+						top: 254px;
+						text-transform: uppercase;
+						text-align: justify;
+					}
+					#thought p{
+						color: gray;
+						text-transform: none;
+						text-align: right;
+						margin-top: 20px;
+					}
+					#offices{
+						width: 230px;
+						position: absolute;
+						top: 550px;
+						display: block;
+						background: #f2f2f2;
+					}
+					#officenav {
+						height: 30px;
+						display: block;
+						padding-left: 9px;
+						padding-top: 12px;
+						background:#4dd2ff;
+						color: white;
+						font-size: 15px;
+					}
+					.officepic{
+						padding: 5px;
+						margin-top: 3px;
+					}
+					article{
+						height: 380px;
+						width: 700px;
+						position: absolute;
+						right: 194px;
+						top: 470px;
+					}
+					.picbottom1{
+						width: 330px;
+						height: 200px;
+						position: absolute;
+						top: 920px;
+						right: 565px;
+					}
+					.picbottom2{
+						width: 330px;
+						height: 200px;
+						position: absolute;
+						top: 920px;
+						right: 194px;
+					}
+					#teamnav{
+						width: 695px;
+						height: 30px;
+						background-color: #4dd2ff;
+						padding: 5px 0 5px 5px;
+						font-size: 25px;
+						position: absolute;
+						right: 194px;
+						top: 1150px;
+						color: white;
+					}
+					#teampics{
+						height: 100px;
+						width: 700px;
+						position: absolute;
+						top: 1205px;
+						right: 194px;
+					}
+					#teampics img{
+						width: 100px;
+						height: 100px;
+						margin-right: 40px;
+						float: left;
+						list-style-type: none;
+					}
+					.names{
+						height: 40px;
+						width: 700px;
+						position: absolute;
+						top: 1310px;
+						right: 194px;
+						font-size: 13px;
+						color:rgb(150, 150, 150);
+					}
+					span{
+						color: #4dd2ff;
+						text-transform:lowercase;
+					}
+					#saundra {
+						position: absolute;
+						top: 1px;
+						right: 460px;
+					}
+					#julio{
+						position: absolute;
+						top: 1px;
+						right: 325px;
+					}
+					#margery{
+						position: absolute;
+						top: 1px;
+						right: 185px;
+					}
+					#fernando{
+						position: absolute;
+						top: 1px;
+						right: 54px;
+					}#teampics1{
+						height: 100px;
+						width: 700px;
+						display: inline-block;
+						position: absolute;
+						top: 1355px;
+						right: 194px;
+					}
+					#teampics1 img{
+						width: 100px;
+						height: 100px;
+						margin-right: 40px;
+						float: left;
+						list-style-type: none;
+					}
+					.names1{
+						height: 40px;
+						width: 700px;
+						position: absolute;
+						top: 1465px;
+						right: 194px;
+						font-size: 13px;
+						color:rgb(150, 150, 150);
+					}
+					span{
+						color: #4dd2ff;
+						text-transform:lowercase;
+					}
+					#cody {
+						position: absolute;
+						top: 1px;
+						right: 460px;
+					}
+					#eric{
+						position: absolute;
+						top: 1px;
+						right: 317px;
+					}
+					#dona{
+						position: absolute;
+						top: 1px;
+						right: 210px;
+					}
+					#darryl{
+						position: absolute;
+						top: 1px;
+						right: 48px;
+					}
+					footer{
+						height: 100px;
+						width: 100%;
+						padding-top: 5px;
+						background: rgb(125, 125, 125);
+						position: absolute;
+						top: 1550px;
+						right: 0;
+					}
+					#twitter{
+						height: 100px;
+						width: 280px;
+						margin-left: 150px;
+					}
+					#twitter h4{
+						color: white;
+						padding-top: 10px;
+						text-align: left;
+						font-weight: 500;
+						}#twitter hr{
+							padding-left: 20px;
+						}
+						#twitlink{
+							font-size: 12px;
+							color: rgb(160, 160, 160);
+							position: absolute;
+							top: 40px;
+							}#twitlink:hover{color: white;
+							}
+							#twitter p{
+								color: rgb(210,210,210);
+								text-align: left;
+								font-size: 12px;
+								padding-top: 3px;
+							}
+							#citemap{
+								height: 100px;
+								width: 170px;
+								padding-left: 25px;
+								position: absolute;
+								top: 5px;
+								right: 720px;
+							}
+							#citemap h4{
+								color: white;
+								padding-top: 10px;
+								text-align: left;
+								font-weight: 500;
+							}
+							#footlist1{
+								padding-top: 12px;
+							}
+							#citemap li{
+								list-style-type: none;
+								line-height: 1px;
+							}
+							#citemap a{
+								text-decoration: none;
+								font-size: 13px;
+								color: rgb(210,210,210);
+							}
+							#citemap a:hover{
+								color: white;
+							}
+							#footlist2{
+								padding-top: 12px;
+								position: absolute;
+								right: 30px;
+								top: 31px;
+							}
+							#socialnets{
+								height: 100px;
+								width: 170px;
+								padding-left: 25px;
+								position: absolute;
+								top: 5px;
+								right: 520px;
+							}
+							#socialnets h4{
+								color: white;
+								padding-top: 10px;
+								text-align: left;
+								font-weight: 500;
+							}
+							#netslist1{
+								padding-top: 8px;
+								position: absolute;
+								left: 30px;
+								top: 31px;
+							}
+							#netslist1 li{
+								list-style-type: none;
+								float: left;
+								margin-right: 24px;
+							}
+							#netslist1 img{
+								height: 30px;
+								width: 30px;
+							}
+							#netslist2{
+								padding-top: 8px;
+								position: absolute;
+								left: 30px;
+								top: 65px;
+							}
+							#netslist2 li{
+								list-style-type: none;
+								float: left;
+								margin-right: 10px;
+							}
+							#netslist2 img{
+								height: 20px;
+								width: 20px;
+							}
+							#footerlogo{
+								}#footerlogo img{
+									position: absolute;
+									top: 30px;
+									left: 350px;
+								}
+								#copyright{
+									font-size: 10px;
+									color: rgb(210, 210, 210);
+									position: absolute;
+									left: 375px;
+									top: 75px;
+									width: 220px;
+								}
+								#copyright a{
+									color: rgb(210,210,210);
+								}

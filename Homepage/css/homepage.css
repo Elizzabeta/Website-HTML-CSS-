@@ -1,0 +1,439 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+main {
+	width: 1050px;	
+	margin: 0 auto;
+}
+.main{
+	width: 1050px;
+	margin: 0 auto 0 auto;
+	height: 1400px;
+}
+header{
+	width: 1050px;
+	height: 100px;
+	float: left;
+}
+.logo{
+	height: 38px;
+	width: 180px;
+	margin:31px 0;
+	float: left;
+}
+.search-engine {
+	width: 230px;
+	height: 38px;
+	color: #fff;
+	margin: 31px 0;
+	float: right;
+	}.search-engine input [type=text]{
+		border: none;
+		}.pole {
+			width: 190px;
+			height: 38px;
+			background: #f2f2f2;
+			border: 1px solid #d9d9d9;
+			color: #d9d9d9;
+			float: left;
+			}.kopche {
+				width: 40px;
+				height: 38px;
+				display:inline-block;
+				float: right;
+				color: white;
+				border: 0;
+				background: #4dd2ff;
+			}
+			#horizont{
+				height:80px;
+				width: 1050px;
+			}
+			#horizont ul li{
+				list-style-type: none;
+				width: 131px;
+				float: left;
+				text-align: center;
+				border-top: 1px solid #d9d9d9;
+				border-bottom: 1px solid #d9d9d9;
+				background-color: #f2f2f2;
+				} li:first-child{
+					border-left: 1px solid #d9d9d9;
+					} li:last-child{
+						border-right: 1px solid #d9d9d9;
+					}
+					#horizont li a{
+						text-decoration: none;
+						color: rgb(180, 180, 180);
+						line-height: 50px;
+						display: block; 
+						font-weight: 700;
+						text-transform: uppercase;
+					}
+					#horizont a:hover {
+						background-color: #4dd2ff;
+						color: white;
+					}
+					.active {
+						background: #4dd2ff;
+						color: white !important;
+					}
+					.slider{
+						width: 1020px;
+						height:250px;
+						background: rgb(205, 205, 205);
+						color: rgb(100,100,100);
+						position: absolute;
+						top: 190px;
+						font-size: 45px;
+						text-transform: uppercase;
+						padding: 30px 0 0 30px;
+					}
+					.slider p{
+						color: rgb(170, 170, 170);
+						text-transform: none;
+						font-size: 20px;
+					}
+					.list{
+						height: 100px;
+						width: 1050px;
+						position: absolute;
+						top: 470px;
+					}
+					.list ol{
+						height: 100px;
+					}
+					.list ol li{
+						text-transform: uppercase;
+						width: 262.5px;
+						display: block;
+						float: left;
+						text-align: center;
+						background: rgb(240, 240, 240);
+						border: none;
+						border-bottom: 1px solid #d9d9d9;
+					}
+					.list li a{
+						text-decoration: none;
+						color: rgb(130, 130, 130);
+						line-height: 60px;
+						padding-left: 10px;
+						font-size: 20px;
+						font-weight: 550;
+					}
+					.list a:hover{
+						color: #4dd2ff;
+					}
+					.active1 {
+						color: #4dd2ff !important;
+					}
+					#about{
+						height: 250px;
+						width:520px;
+						position: absolute;
+						top: 560px;
+						left: 150px;
+					}
+					#about h4{
+						display: inline-block;
+						margin-left: 20px;
+					}
+					#longline{
+						float: right;
+						margin-left: 15px;
+					}
+					#whitesquare{
+						height: 180px;
+						width: 180px;
+						margin-top: 20px;
+					}
+					#about p{
+						color: rgb(150, 150, 150);
+						margin-top: 20px;
+						margin-right: 15px;
+						font-size: 13px;
+						float: right;
+						line-height: 1.3;
+					}
+					#about a{
+						font-size: 13px;
+						color: rgb(100,100,100);
+						float: right;
+						position: absolute;
+						bottom: 30px;
+						right: 250px;
+					}
+					#ceo{
+						height: 250px;
+						width:505px;
+						position: absolute;
+						top: 560px;
+						left: 695px;
+					}
+					#ceo h4{
+						display: inline-block;
+						margin-left: 20px;
+					}
+					#johndoe{
+						height: 180px;
+						width: 180px;
+						margin-top: 20px;
+					}
+					#longlinel{
+						margin-left: 23px;
+					}
+					#ceo q{
+						font-size: 13px;
+						margin-top: 20px;
+						margin-right: 10px;
+						float: right;
+						color: rgb(150, 150, 150);
+					}
+					#ceo p{
+						color: rgb(100,100,100);
+						font-size: 13px;
+						position: absolute;
+						bottom: 30px;
+						right: 218px;
+					}
+					#services{
+						height: 230px;
+						width: 330px;
+						line-height: 1.3;
+						position: absolute;
+						top: 850px;
+						left: 150px;
+					}
+					#services h4{
+						display: inline-block;
+						margin-left: 19px;
+					}
+					#medium1{
+						margin-left: 19px;
+					}
+					#services p{
+						font-size: 13px;
+						color: rgb(150, 150, 150);
+						margin-top: 20px;
+					}
+					#service{
+						font-size: 13px;
+						color: rgb(100,100,100);
+					}
+					#support{
+						height: 230px;
+						width: 330px;
+						line-height: 1.3;
+						position: absolute;
+						top: 850px;
+						left: 870px;
+					}
+					#support h4{
+						display: inline-block;
+						margin-left: 15px;
+					}
+					#medium3{
+						margin-left: 20px;
+					}
+					#support p{
+						font-size: 13px;
+						color: rgb(150, 150, 150);
+						margin-top: 20px;
+					}
+					#supp{
+						font-size: 13px;
+						color: rgb(100,100,100);
+					}
+					#ourteams{
+						height: 230px;
+						width: 330px;
+						position: absolute;
+						top: 850px;
+						left: 510px;
+					}
+					#ourteams h4{
+						display: inline-block;
+						margin-left: 17.5px;
+					}
+					#medium2{
+						margin-left: 17.5px;
+					}
+					.lista{
+						width: 330px;
+						height: 200px;
+						position: absolute;
+						top: 45px;
+					}
+					#listali{
+						list-style-type:none;
+					}
+					#slika{
+						width: 50px;
+						height: 50px;
+					}
+					.lista p{
+						font-size: 12px;
+						float: right;
+						margin-right: 40px;
+						line-height: 1.3;
+						color: rgb(150, 150, 150);
+					}
+					.klienti{
+						height: 200px;
+						width: 1050px;
+						position: absolute;
+						top: 1100px;
+						left: 150px;
+					}
+					.klienti h4{
+						display: inline-block;
+						margin-left: 58.5px;
+					}
+					#longest{
+						margin-left: 58.5px;
+					}
+					.klienti li{
+						width: 140px;
+						float: left;
+						list-style-type: none;
+						margin: 0 5px;
+						margin-top: 20px;
+					}
+					li:last-child{
+						margin-right: 0;
+					}
+					footer{
+						height: 100px;
+						width: 100%;
+						padding-top: 5px;
+						background: rgb(125, 125, 125);
+						position: absolute;
+						top: 1300px;
+						right: 0;
+					}
+					#twitter{
+						height: 100px;
+						width: 280px;
+						margin-left: 150px;
+					}
+					#twitter h4{
+						color: white;
+						padding-top: 10px;
+						text-align: left;
+						font-weight: 500;
+						}#twitter hr{
+							padding-left: 20px;
+						}
+						#twitlink{
+							font-size: 12px;
+							color: rgb(160, 160, 160);
+							position: absolute;
+							top: 40px;
+							}#twitlink:hover{color: white;
+							}
+							#twitter p{
+								color: rgb(210,210,210);
+								text-align: left;
+								font-size: 12px;
+								padding-top: 3px;
+							}
+							#citemap{
+								height: 100px;
+								width: 170px;
+								padding-left: 25px;
+								position: absolute;
+								top: 5px;
+								right: 720px;
+							}
+							#citemap h4{
+								color: white;
+								padding-top: 10px;
+								text-align: left;
+								font-weight: 500;
+							}
+							#footlist1{
+								padding-top: 12px;
+							}
+							#citemap li{
+								list-style-type: none;
+								line-height: 1px;
+							}
+							#citemap a{
+								text-decoration: none;
+								font-size: 13px;
+								color: rgb(210,210,210);
+							}
+							#citemap a:hover{
+								color: white;
+							}
+							#footlist2{
+								padding-top: 12px;
+								position: absolute;
+								right: 30px;
+								top: 31px;
+							}
+							#socialnets{
+								height: 100px;
+								width: 170px;
+								padding-left: 25px;
+								position: absolute;
+								top: 5px;
+								right: 520px;
+							}
+							#socialnets h4{
+								color: white;
+								padding-top: 10px;
+								text-align: left;
+								font-weight: 500;
+							}
+							#netslist1{
+								padding-top: 8px;
+								position: absolute;
+								left: 30px;
+								top: 31px;
+							}
+							#netslist1 li{
+								list-style-type: none;
+								float: left;
+								margin-right: 24px;
+							}
+							#netslist1 img{
+								height: 30px;
+								width: 30px;
+							}
+							#netslist2{
+								padding-top: 8px;
+								position: absolute;
+								left: 30px;
+								top: 65px;
+							}
+							#netslist2 li{
+								list-style-type: none;
+								float: left;
+								margin-right: 10px;
+							}
+							#netslist2 img{
+								height: 20px;
+								width: 20px;
+							}
+							#footerlogo{
+								}#footerlogo img{
+									position: absolute;
+									top: 30px;
+									left: 350px;
+								}
+								#copyright{
+									font-size: 10px;
+									color: rgb(210, 210, 210);
+									position: absolute;
+									left: 375px;
+									top: 75px;
+									width: 220px;
+								}
+								#copyright a{
+									color: rgb(210,210,210);
+								}
